@@ -3,10 +3,12 @@ import { TaskList } from './components/TaskList';
 import './App.css';
 
 export default function App() {
+  const info = "Random";
+
   return(
     <div className='App'>
       <Header/>
-      <TaskList />
+      <TaskList info={info}/>
     </div>
   );
 }
