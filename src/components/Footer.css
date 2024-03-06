@@ -1,0 +1,9 @@
+footer{
+    display: flex;
+    margin: auto;
+    border-top: 1px solid var(--theme-border);
+    height: 50px;
+    max-width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
